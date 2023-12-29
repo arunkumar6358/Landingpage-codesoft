@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #FF6347; /* Tomato color for the heading */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.dish {
+    background-color: #f8f8f8; /* Light gray background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+h2 {
+    color: whitesmoke; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #FF6347; /* Tomato color for the price */
+    font-size: 20px;
+    font-weight: bold;
+}
+.dish:hover {
+    background-color: #fff; /* Change background color on hover */
+    transform: scale(1.03); /* Add a slight scale effect on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.order-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #FF6347; /* Tomato color for the button */
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.order-btn:hover {
+    background-color: #FF4500; /* Darker Tomato color on hover */
+}
+.dish-1{
+    background-image: url(/img/pasta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+}
+.dish-2{
+    background-image: url(/img/gralic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+}
+.dish-3{
+    background-image: url(/img/Roasted-Vegetable-Quinoa-Bowl-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+}
+.dish:hover{
+    opacity: 1;
+}

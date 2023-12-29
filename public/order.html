@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Delights | Order Details</title>
+    <link rel="stylesheet" href="../style/order.css">
+</head>
+<body>
+    <div class="order-container">
+        <img src="../img/healthy-food.png" alt="">
+        <h1>Your Order Details</h1>
+        
+        <form id="orderForm">
+            <label for="dish">Select Dish:</label>
+            <select id="dish" name="dish" required>
+                <option value="" disabled selected>Select a dish</option>
+                <option value="special_pasta">Special Homemade Pasta</option>
+                <option value="shrimp_skewers">Garlic Butter Shrimp Skewers</option>
+                <option value="quinoa_bowl">Vegetarian Quinoa Bowl</option>
+            </select>
+            <div class="input-wrapper">
+                <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter quantity" required>
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-wrapper">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- New element for displaying total price -->
+            <div id="totalPrice">Total Price: $0.00</div>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <!-- You can add additional styling for the form if needed -->
+
+    <script src="./script/order.js"></script>
+</body>
+</html>
